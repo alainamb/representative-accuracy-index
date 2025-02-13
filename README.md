@@ -10,8 +10,8 @@ Research has shown that homogeneous decision-making groups tend to:
 - Show higher confidence in incorrect answers compared to diverse groups
 
 Sources:
-Rock, David and Heidi Grant. “Why Diverse Teams Are Smarter.” Harvard Business Review, Harvard Business Publishing, 2016 Nov 4, https://hbr.org/2016/11/why-diverse-teams-are-smarter. Accessed 2022 Apr 1.
-Apfelbaum, Evan. Interview with Martha E. Mangelsdorf. “The Trouble with Homogenous Teams.” MIT Sloan Management Review, Massachusetts Institute of Technology, 2017 Dec 11, https://sloanreview.mit.edu/article/the-trouble-with-homogeneous-teams/. Accessed 2022 Apr 1.
+- Rock, David and Heidi Grant. “Why Diverse Teams Are Smarter.” Harvard Business Review, Harvard Business Publishing, 2016 Nov 4, https://hbr.org/2016/11/why-diverse-teams-are-smarter. Accessed 2022 Apr 1.
+- Apfelbaum, Evan. Interview with Martha E. Mangelsdorf. “The Trouble with Homogenous Teams.” MIT Sloan Management Review, Massachusetts Institute of Technology, 2017 Dec 11, https://sloanreview.mit.edu/article/the-trouble-with-homogeneous-teams/. Accessed 2022 Apr 1.
 
 This index provides a quantitative framework to:
 1. Calculate representation gaps between decision-making bodies and the populations they serve
