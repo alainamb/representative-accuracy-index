@@ -42,7 +42,7 @@ class SCOTUSDataProcessor:
             self.process_dates()
         
         # Add demographic columns
-        for col in ['gender presentation', 'race', 'ethnicity']:
+        for col in ['gender presentation', 'race presentatino', 'ethnicity']:
             self.enhanced_df[col] = None
         
         # Add identifier
@@ -60,7 +60,7 @@ class SCOTUSDataProcessor:
         print(f"\nExported to {output_file}")
         print("\nPlease add the following demographic information:")
         print("- gender presentation: 'Male', 'Female', 'Non-Binary'")
-        print("- race: 'White', 'Black', 'Asian', 'Native American', etc.")
+        print("- race presentation: 'White', 'Black', 'Asian', 'Native American', etc.")
         print("- ethnicity: 'Hispanic', 'Non-Hispanic'")
 
 if __name__ == "__main__":
