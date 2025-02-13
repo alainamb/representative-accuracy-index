@@ -60,12 +60,17 @@ The repository includes Jupyter notebooks analyzing the representative accuracy 
 ```
 representative-accuracy-index/
 ├── notebooks/                    # Jupyter notebooks with analyses
-│   ├── gender_representation/    # Gender-focused analyses
-│   ├── race_ethnicity/          # Race and ethnicity analyses
-│   └── intersectional/          # Intersectional demographic analyses
+│   ├── gender_representation/    
+│   ├── race_ethnicity/          
+│   └── intersectional/          
 ├── data/                        # Population and institutional datasets
-├── src/                         # Source code for index calculations
-└── docs/                        # Documentation and methodology details
+├── src/                         # Source code and reusable functions
+│   ├── __init__.py
+│   ├── calculations.py          # Core index calculation functions
+│   ├── data_processing.py       # Data cleaning and preprocessing
+│   ├── visualizations.py        # Plotting and visualization functions
+│   └── utils.py                 # Helper utilities
+└── docs/
 ```
 
 ## Getting Started
