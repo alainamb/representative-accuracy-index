@@ -71,6 +71,10 @@ representative-accuracy-index/
 │   ├── visualizations.py        # Plotting and visualization functions
 │   └── utils.py                 # Helper utilities
 └── docs/
+    ├── index.html              # Main landing page
+    ├── css/                    # Stylesheets
+    ├── js/                     # JavaScript files
+    └── assets/                 # Images and other static files
 ```
 
 ## Getting Started
