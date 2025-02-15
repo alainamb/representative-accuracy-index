@@ -1,0 +1,33 @@
+.hero__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.5rem;
+    color: var(--ifm-color-emphasis-700);
+  }
+  
+  .card {
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: var(--ifm-card-border-radius);
+    margin-bottom: 1rem;
+  }
+  
+  .card__header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  }
+  
+  .card__header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card__body {
+    padding: 1.5rem;
+  }
+  
+  .padding--md {
+    padding: 1rem;
+  }
