@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
-import styles from './about.module.css';
+import styles from './css/about.module.css';
 
 export default function About() {
   const {siteConfig} = useDocusaurusContext();
