@@ -114,7 +114,7 @@ We welcome contributions to expand the index’s capabilities and improve its me
 If you use this index in your research or analysis, please cite:
 
 ```
-Brandt, Alaina. 2024. Representative Accuracy Index.
+Brandt, Alaina. 2025. Representative Accuracy Index.
 https://github.com/username/representative-accuracy-index
 ```
 

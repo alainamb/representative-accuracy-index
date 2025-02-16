@@ -1,0 +1,28 @@
+.heroBanner {
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero__title {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .hero__subtitle {
+    font-size: 1.5rem;
+    color: var(--ifm-color-emphasis-700);
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 996px) {
+    .heroBanner {
+      padding: var(--spacing-lg);
+    }
+  }

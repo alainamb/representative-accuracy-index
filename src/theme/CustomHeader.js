@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Link from '@docusaurus/Link';
-import { Github, Sun, Moon } from 'react-bootstrap-icons';
+import { Github, Sun, Moon } from 'lucide-react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import styles from '../css/modules/header.module.css';
 
 export default function CustomHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,29 +14,27 @@ export default function CustomHeader() {
   };
 
   return (
-    <header className="custom-header">
-      <div className="header-container">
-        <div className="header-left">
+    <header className={styles.header}>
+      <div className={styles.headerContainer}>
+        <div className={styles.headerControls}>
           <button 
-            onClick={toggleDarkMode} 
-            className="mode-toggle"
+            onClick={toggleDarkMode}
+            className={styles.iconButton}
             aria-label={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
           >
             {isDarkMode ? <Sun /> : <Moon />}
           </button>
           <a 
-            href="https://github.com/alainamb/representative-accuracy-index" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="github-link"
+            href="https://github.com/alainamb/representative-accuracy-index"
+            className={styles.iconButton}
           >
             <Github />
           </a>
         </div>
-        <Link to="/" className="site-title">
+        <Link to="/" className={styles.siteTitle}>
           {siteConfig.title}
         </Link>
-        <nav className="site-nav">
+        <nav className={styles.nav}>
           <Link to="/calculator">Calculator</Link>
           <Link to="/about">About</Link>
           <Link to="/resources">Resources</Link>

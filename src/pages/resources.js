@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
+import styles from '../css/main.css';
+import LayoutTemplate from '../theme/LayoutTemplate.js';
 
 const RESOURCES = [
   {
@@ -52,7 +54,7 @@ export default function Resources() {
   );
 
   return (
-    <Layout title="Resources">
+    <LayoutTemplate title="Resources">
       <div className="container margin-vert--lg">
         <h1>Research Resources</h1>
         
@@ -109,6 +111,6 @@ export default function Resources() {
           ))}
         </div>
       </div>
-    </Layout>
+    </LayoutTemplate>
   );
 }

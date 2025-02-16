@@ -1,26 +1,27 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
+import HomepageFeatures from '@site/src/components/HomepageFeatures/HomepageFeatures.js';
 import Heading from '@theme/Heading';
-import styles from './css/index.module.css';
+import styles from '..//css/modules/hero.module.css';
+import LayoutTemplate from '../theme/LayoutTemplate.js';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+        <Heading as="h1" className="styles.hero__title">
+          Representative Accuracy Index
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="styles.hero__subtitle">
+          Measuring and improving the accuracy of political representation
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/calculator">
+            Try the Calculator
           </Link>
         </div>
       </div>
@@ -31,13 +32,13 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <LayoutTemplate
+      title="Representative Accuracy Index"
+      description="A tool for measuring and improving the accuracy of political representation">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
-    </Layout>
+    </LayoutTemplate>
   );
 }

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
+import styles from '../css/main.css';
+import LayoutTemplate from '../theme/LayoutTemplate.js';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -38,7 +40,7 @@ ${formData.message}
   };
 
   return (
-    <Layout title="Contact">
+    <LayoutTemplate title="Contact">
       <div className="container margin-vert--lg">
         <h1>Contact Us</h1>
         <form onSubmit={handleSubmit}>
@@ -100,6 +102,6 @@ ${formData.message}
           <p>GitHub: <a href="https://github.com/username">@username</a></p>
         </div>
       </div>
-    </Layout>
+    </LayoutTemplate>
   );
 }

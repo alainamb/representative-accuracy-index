@@ -1,21 +1,11 @@
-.hero__title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero__subtitle {
-    font-size: 1.5rem;
-    color: var(--ifm-color-emphasis-700);
-  }
-  
-  .card {
+.card {
     border: 1px solid var(--ifm-color-emphasis-200);
     border-radius: var(--ifm-card-border-radius);
-    margin-bottom: 1rem;
+    margin-bottom: var(--spacing-sm);
   }
   
   .card__header {
-    padding: 1.5rem;
+    padding: var(--spacing-md);
     border-bottom: 1px solid var(--ifm-color-emphasis-200);
   }
   
@@ -25,9 +15,5 @@
   }
   
   .card__body {
-    padding: 1.5rem;
-  }
-  
-  .padding--md {
-    padding: 1rem;
+    padding: var(--spacing-md);
   }
