@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from '@docusaurus/Link';
-import { Github, Sun, Moon } from 'lucide-react/dist/esm/icons';
+import { GitHubLogoIcon, SunIcon, MoonIcon } from '@heroicons/react/24/solid';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from '../css/modules/header.module.css';
 
